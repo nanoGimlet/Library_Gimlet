@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 const long double PI = acos(-1.0L);
 // cout << setpricision(14) << PI << endl;で出力
 
@@ -144,9 +141,4 @@ void Permutation(vector<int> &ppl) {
         }
         cout << endl;
     }while(next_permutation(ppl.begin(), ppl.end()));
-}
-
-int main() {
-    cout << gcd(12, 9) << endl;
-    cout << lcm(12, 9) << endl;
 }
